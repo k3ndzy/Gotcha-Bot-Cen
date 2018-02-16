@@ -8,7 +8,7 @@ function hook(channel, title, message, color, avatar) {
         if (!title) return console.log('Title not specified.');
         if (!message) return console.log('Message not specified.');
         if (!color) color = 'FF00FF'; 
-        if (!avatar) avatar = 'https://cdn4.iconfinder.com/data/icons/technology-devices-1/500/speech-bubble-128.png'
+        if (!avatar) avatar = 'https://cdn.discordapp.com/attachments/367295988546666509/382454779634515970/what.png'
     
 
         color = color.replace(/\s/g, '');
@@ -114,7 +114,7 @@ function hook(channel, title, message, color, avatar) {
             message.delete();
     
             if (msg === prefix + 'HOOK') { 
-                return hook(message.channel, 'Hook Usage', `${prefix}hook <title>, <message>, [HEXcolor], [avatarURL]\n\n**<> is required\n[] is optional**`,'#FF00FF','https://media.discordapp.net/attachments/257366018257715210/385441473333559317/10372895_698717463574912_8519512084436252101_o.jpg?width=484&height=484')
+                return hook(message.channel, 'Hook Usage', `${prefix}hook <title>, <message>, [HEXcolor], [avatarURL]\n\n**<> is required\n[] is optional**`,'#FF00FF','https://cdn.discordapp.com/attachments/367295988546666509/382454779634515970/what.png')
             }
     
             let hookArgs = message.content.slice(prefix.length + 4).split(","); 
