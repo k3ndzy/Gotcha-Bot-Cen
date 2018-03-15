@@ -1,0 +1,16 @@
+@everyone 
+Hi All,
+
+PokeGo++ 2.0 has been updated!
+:boom:Release Notes 2.0r-62 (0.91.2):boom:
+
+- Updated Cooldown timers to be more accurate #tips-tricks 
+- Coords list will now return you to your previous page when opening
+- Added more shiny assets
+- We have added a blacklist feature to our coords lists. Any unauthorized URLs will be restricted to the Donor URL fields only.
+- Added "Export List" option to IV list for Jailbroken devices. Select the filter button in the top left to activate. This includes all fields.
+- https://nest.pokego2.com/ coord lists now have a "Generate GPX" option when sniping. This will automatically create a GPX route based on the pokemon in the nest. 
+
+Electra Users - https://pokego2.com/pokegopp11.deb
+
+```https://download.pokego2.com/R62a.ipa```
